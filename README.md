@@ -1,12 +1,38 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather application built with **Vite** and **React.js**, providing real-time weather updates for any city. The app fetches data from a weather API (e.g., OpenWeatherMap) and displays current weather conditions, including temperature, humidity, wind speed, and more.
 
-Currently, two official plugins are available:
+🌦️ **Live Demo**: [Weather App](https://weather-app-git-main-sathiyanarayanan53s-projects.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Search for weather information by city name.
+- Displays current temperature, weather condition, humidity, and wind speed.
+- Responsive design for seamless use on desktop and mobile devices.
+- Fast and optimized performance with Vite's modern build tooling.
+- Error handling for invalid city names or API failures.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Frontend**: React.js
+- **Build Tool**: Vite
+- **API**: [OpenWeatherMap API](https://openweathermap.org/api) (or specify your chosen API)
+- **Deployment**: Vercel
+- **Styling**: Tailwind CSS
+- **Other Libraries**: Axios (for API calls), React Hooks
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- **Node.js**: v16 or higher
+- **npm** or **yarn**: For dependency management
+- A valid API key from your weather API provider (e.g., OpenWeatherMap)
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+   cd weather-app
